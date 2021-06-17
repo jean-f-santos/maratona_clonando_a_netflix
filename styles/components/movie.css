@@ -15,5 +15,15 @@
 .movie__img {
     width: 103px;
     height: 161px;
-    margin-left: 12px;
+}
+.movie__img--big {
+    width: 154px;
+    height: 251px;
+}
+.movie__img--circle {
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 102px;
+    height: 102px;
 }
